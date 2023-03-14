@@ -1,8 +1,10 @@
+#Başlık değişkeninin değeri önce "Taşıt Kredisi" olarak atanıyor, sonra "Hemen SATIN AL" olarak değiştiriliyor. Çıktıda son değer olan "Hemen SATIN AL" görünecek.
 baslik="Taşıt Kredisi"
 print(baslik)
 baslik="Hemen SATIN AL"
 print(baslik)
- 
+
+#Vade ve ekVade değişkenleri sayısal değerler alıyor. AylikOdeme ise bir ondalık sayı değerini gösteriyor.
 vade = 36
 ekVade = 6
  
@@ -15,7 +17,8 @@ aylikOdeme= 200.50
 yukselisteMi = False
  
 #-------------------
- 
+#Bu kısımda matematiksel işlemler yapılıyor (toplama, çıkartma, çarpma, bölme).
+
 #matematiksel operatörler
 #toplama
 print(5 + 5)
@@ -43,12 +46,12 @@ indirimliFiyat = fiyat - 20
 print(yeniVade)
 print(indirimliFiyat)
  
-#mod operatoru = bir sayının bir sayıya bölümünden kalan değeri hesaplama
+#mod operatoru = bir sayının diğer sayıya bölümünden kalan değer hesaplanıyor
 print(10%2)
 print(vade%ekVade)
  
  
-#mantıksal operatorler
+#mantıksal operatorler = mantıksal operatörler kullanılarak true/false olarak değer döndüren ifadeler oluşturuluyor.
 print(1==1) # 2 eşittir operatörü "eşit mi?"" anlamındadır ve eşit ise True döner Değilse False
 print(1==2)
  
@@ -59,10 +62,8 @@ print(1 != 1) #Eşit Değildir ifadesi. Burada false dönecek çünkü eşit
 print(1 != 2) #Eşit Değildir ifadesi. Burada true dönecek çünkü eşit değil
  
 #or / and keywords
-# or birden fazla operatör kullanılacağı zaman kullanılır. 
-# Bağlanan 2 operatörden birinin doğru olması durumunda TRUE döner
- 
-# and her ikisi doğru olmalı. İlk olarak çalıştırılır karışık kullanımlarda
+#"or" operatörü kullanıldığında ikisinin birinin doğru olması durumunda True döner.
+#"and" operatörü kullanıldığında ise her iki koşulun da doğru olması gerekmektedir.
  
 print(1 > 2 or 5 > 2)
 print(1 > 2 and 5 > 2) 
@@ -86,5 +87,3 @@ else:
 #indent önemli. mesela yukarıda ilk ifden sonra tab boşluğuyla printler yazılı ancak aşağıdaki print bunların hizasında değil.
 #bu şekilde olduğunda bu print if'e bağlı değildir.
 print("Burası If bloğunun disindadır")
- 
- 
