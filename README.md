@@ -30,4 +30,4 @@ Herhangi bir hata veya öneriniz varsa, lütfen GitHub üzerinden bir sorun aça
 
 Bu `sınıf-notları` dizini, her sınıftan notları ve kod parçacıklarını içerir. Notlar tarihe ve konuya göre düzenlenir ve kod örnekleri, açıklamalar ve ek kaynaklara bağlantılar içerir.
 
-<p dir="auto">Daha fazla bilgi edinmek için lütfen kampa göz atın<a href="https://www.kodlama.io/p/yazilim-gelistirici-yetistirme-kampi21" rel="nofollow"> detaylar </a>.</p>
+<p dir="auto">Daha fazla bilgi edinmek için lütfen kampa göz atın<a href="https://www.kodlama.io/p/yazilim-gelistirici-yetistirme-kampi211"> detaylar </a>.</p>
